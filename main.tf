@@ -23,7 +23,7 @@ module "k3s_cluster" {
   k3s_server_instances = {
     count            = 1
     assign_public_ip = true
-    vpc_subnet_ids   = ["subnet-0695b9ec84837197b"]
+    vpc_subnet_ids   = ["subnet-0695b9ec84837197b","subnet-0325e5d5b25914a6d"]
   }
 }
 
